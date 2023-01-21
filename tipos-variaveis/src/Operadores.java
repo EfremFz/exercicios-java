@@ -67,6 +67,21 @@ double resultado = (10 * 7) + (20/4);
             System.out.println(variavel);
 
 
+            //Operador ternario
+            //O resultado ca operação ternária é sembre um resultado boleano (verdadeiro/falso)
+            /*Esse operador  funciona igual ao IF, seguindo a seguinte estrutura:
+            Condiçao de teste, neste caso a==b depois o simbolo "?" Resultado caso Verdadeiro, Depois vem o simbolo ":" e o resultado caso de falso*/
+
+            int a, b ;
+            a = 6;
+            b = 6;
+
+
+            String resposta = a==b ? "A  é igual à B" : "A é diferente de B";// A condição ternária começa no a==b
+
+            System.out.println(resposta);
+
+
 
     }
     
