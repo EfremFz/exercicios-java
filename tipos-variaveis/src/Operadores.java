@@ -14,7 +14,7 @@ char sexo = 'M';
 //Boleano trabalha o os valores verdadeiro(True) e falso(False), por padrão, caso não atribua um valor ele vem como false. 
 boolean doadorOrgao = false;
 //Declaração de classe
-//Date dataNascimento = new Date();
+Date dataNascimento = new Date();
 
 
 //Exemplos de opoerações matematicas usandos operadores aritimeticos (+)soma , (-)subitração, (*)multiplicação, (/)Divisão e (%)mod "esse operador verifica o resto da divisão"
