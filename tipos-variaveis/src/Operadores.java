@@ -117,7 +117,7 @@ double resultado = (10 * 7) + (20/4);
             
             System.out.println(nome1 == nome2); 
     
-            String nome3 = new String("JAVA");
+            String nome3 = new String("JAVA");// criação de um novo objeto
             
             System.out.println(nome1 == nome3); 
     
@@ -135,9 +135,23 @@ double resultado = (10 * 7) + (20/4);
         //Operadores Lógicos 
         
         /*
+            O "&"(E) vai dar o resultado VERDADEIRO somente se as duas condições forem verdadeiras.
+            Já o  "||" (OU) vai dar resultado VERDADEIRO se qualquer uma das duas condições forem verdadeiras.
 
          */
 
+
+         boolean condicao1=true;
+
+         boolean condicao2=false;
+         
+                 
+         if(condicao1 && condicao2)
+             System.out.print("Os dois valores precisam ser verdadeiros");;
+         
+         //Se condicao1 OU condicao2 for verdadeira, executar código.
+         if(condicao1 || condicao2)
+             System.out.print("Um dos valores precisa ser verdadeiro");
 
     }
     
