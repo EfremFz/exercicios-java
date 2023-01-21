@@ -5,7 +5,7 @@ public class Operadores {
 //O sinal de igual(=) é usando como operador de atribuição
 
 //Para atribuir uma string é necessário usar as aspa dupla "TEXTO"
-String nome = "GLEYSON";
+String nome = "Efrem";
 //Valores como int e double são declarados diretamente, mas o double não interpreta a virgula, ele usa o ponto 
 int idade = 22;
 double peso = 68.5;
@@ -45,7 +45,26 @@ double resultado = (10 * 7) + (20/4);
 
             System.out.println(numero);
 
+        // incremento e decremento pré-fixado e pós-fizado
+        //Os exemplos estão com operador ++ , mas o mesmo vale par ao operador --
 
+            numero = numero ++; // Incremento pós-fixado, ou seja ele só vai incrementar a variável após usa-la
+
+            System.out.println(numero);
+
+            numero = ++numero; // Incremento pré-fizado , ou seja ele vai incrementar entes de esuar a váriável 
+
+            System.out.println(numero);
+
+        //Inverções de valores em variáveis boleanas
+        
+            boolean variavel = true;
+
+            System.out.println(variavel);
+
+            variavel = !variavel;// Estou usando o operador de negação para enverter o valor original da variável
+
+            System.out.println(variavel);
 
 
 
