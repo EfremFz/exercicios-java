@@ -20,6 +20,7 @@ public class OperadoresRelacionais {
         long l2 = 354864L;
         byte y1 = 1;
         short h1 = 25;
+        
 
         //Comparação com dados do tipo (int) Inteiro
         System.out.println("i1 == i2" + (i1 == i2));
