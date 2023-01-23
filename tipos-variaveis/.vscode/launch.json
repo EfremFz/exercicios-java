@@ -1,0 +1,49 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch OperadoresRelacionais",
+            "request": "launch",
+            "mainClass": "OperadoresRelacionais",
+            "projectName": "tipos-variaveis_a29a6faa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AboutMe",
+            "request": "launch",
+            "mainClass": "AboutMe",
+            "projectName": "tipos-variaveis_a29a6faa"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinhaClasse",
+            "request": "launch",
+            "mainClass": "MinhaClasse",
+            "projectName": "tipos-variaveis_a29a6faa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Operadores",
+            "request": "launch",
+            "mainClass": "Operadores",
+            "projectName": "tipos-variaveis_a29a6faa"
+        },
+        {
+            "type": "java",
+            "name": "Launch TiposVariaveis",
+            "request": "launch",
+            "mainClass": "TiposVariaveis",
+            "projectName": "tipos-variaveis_a29a6faa"
+        }
+    ]
+}
