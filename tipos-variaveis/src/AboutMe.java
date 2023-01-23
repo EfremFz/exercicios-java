@@ -1,19 +1,23 @@
-/* Ao executar esse programa, digite o seguinete comando no terminal: java AboutMe EFREM FEREEIRA 32 1.78 
- * 
- * O resultado esperado é :
- * Ola, me chamo EFREM FEREEIRA
- * Tenho 32anos
- * Minha altura é : 1.78cm
- */
+import java.util.Locale;
+import java.util.Scanner;
 
 public class AboutMe {
 
     public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
         
-        String nome = args [0];
-        String sobrenome = args [1];
-        int idade = Integer.valueOf(args[2]);
-        double altura = Double.valueOf(args[3]);
+        System.out.println("Digite o seu primeiro nome: ");
+        String nome = scanner.next();
+
+        System.out.println("Digite o seu primeiro nome: ");
+        String sobrenome = scanner.next();
+
+        System.out.println("Digite a sua Idade: ");
+        int idade = scanner.nextInt();
+
+        System.out.println("Digite a sua Altura: ");
+        double altura = scanner.nextDouble();
 
         System.out.println("Olá, me chamo " + nome + " " + sobrenome);
         System.out.println("Tenho " + idade + " anos ");

@@ -15,14 +15,8 @@
             "name": "Launch AboutMe",
             "request": "launch",
             "mainClass": "AboutMe",
-            "projectName": "tipos-variaveis_a29a6faa",
-            "args":[
-                "Efrem",
-                "Ferreira",
-                "32",
-                "1.78"
-
-            ]
+            "projectName": "tipos-variaveis_a29a6faa"
+            
         },
         {
             "type": "java",
