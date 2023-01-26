@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ControleFluxo",
+            "request": "launch",
+            "mainClass": "ControleFluxo",
+            "projectName": "tipos-variaveis_a29a6faa"
+        },
+        {
+            "type": "java",
             "name": "Launch OperadoresLogicos",
             "request": "launch",
             "mainClass": "OperadoresLogicos",
